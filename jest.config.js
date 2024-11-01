@@ -14,7 +14,7 @@ module.exports = {
         '^@/(.*)$': '<rootDir>/src/$1',  // Adiciona suporte para o alias @/
         '^next/font/(.*)$': '<rootDir>/__mocks__/next/font/local.js'  // Adiciona mock para next/font
       },
-    setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
+    setupFilesAfterEnv: ["<rootDir>/jest/setup.ts"],
     moduleDirectories: ['node_modules', '<rootDir>/src']
   };
   
